@@ -1,0 +1,34 @@
+# Compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Pasta de saída da compilação
+bin/
+out/
+target/
+build/
+
+# Configurações locais do VS Code
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Configurações locais/sensíveis
+.env
+.env.*

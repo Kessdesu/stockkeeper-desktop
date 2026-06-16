@@ -23,6 +23,8 @@ public class MainFrame extends JFrame {
         itemService = new ItemService();
 
         setTitle("StockKeeper Desktop");
+        ImageIcon appIcon = new ImageIcon("assets/logo.png");
+        setIconImage(appIcon.getImage());
         setSize(1050, 550);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

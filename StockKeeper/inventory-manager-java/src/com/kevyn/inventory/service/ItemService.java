@@ -63,6 +63,22 @@ public class ItemService {
         return false;
     }
 
+    public int getTotalItems() {
+        return items.size();
+    }
+
+    public int countByStatus(String status) {
+        int count = 0;
+
+        for (Item item : items) {
+            if (item.getStatus().equals(status)) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
     public boolean deleteById(int id) {
         return items.removeIf(item -> item.getId() == id);
     }

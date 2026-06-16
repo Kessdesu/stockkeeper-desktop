@@ -1,16 +1,14 @@
 package com.kevyn.inventory;
 
-import com.kevyn.inventory.ui.MainFrame;
+import com.kevyn.inventory.ui.WelcomeFrame;
 
 import javax.swing.SwingUtilities;
 
 public class Main {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            MainFrame mainFrame = new MainFrame();
-            mainFrame.setVisible(true);
+            WelcomeFrame welcomeFrame = new WelcomeFrame();
+            welcomeFrame.setVisible(true);
         });
     }
 }
-

@@ -1,8 +1,10 @@
 package com.kevyn.inventory.util;
 
 public enum Status {
-    ATIVO,
+    DISPONIVEL,
+    EM_USO,
     MANUTENCAO,
-    INATIVO,
-    BAIXADO
+    RESERVADO,
+    BAIXADO,
+    INATIVO
 }
